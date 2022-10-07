@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main{
+    margin: 40px;
+}
+
+
+
+
+
+
+
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image:linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.5) 50%
+      ), url(./img/PAGE-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+}
+
+.title{
+    width: 1200px;
+    height: auto;
+    display: grid;
+    margin-top: 5%;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.title h1{
+    width: 1200px;
+    height: auto;
+    margin-top: 50px;
+    font-size: 90px;
+    line-height: 10px;
+}
+
+.title p {
+    text-transform: uppercase;
+}
+
+.cource{
+    width: 1200px;
+    height: 300px;
+    display: grid;
+    font-size: 23px;
+    padding-left: 80px;
+    padding-top: 200px;
+    margin-top: 0px;
+}
+
+.cource .para{
+    width: 1200px;
+    height: 100px;
+    line-height: 45px;
+    padding-top: 0px;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background: #5203fc;
+    border: none;
+    margin-left: 80px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: -75px;
+}
+
+.btn .cn{
+    font-size: 17px;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+
+}
+ .btn .cn a{
+    text-decoration: none;
+    color: white;
+    
+ }
+
+
+
+
+
+
+
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    color: white;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.img-box{
+    background-image: url(./img/PAGE-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text-box{
+    display: grid;
+    background-color: black;
+}
+
+.text-box-head h2{
+    font-size: 55px;
+    margin-left: 90px;
+    margin-top: 80px;
+    line-height: 52px;
+}
+
+.text-box-cont{
+    font-size: 20px;
+    margin-left: 90px;
+    text-align: left;
+    margin-top: -25px;
+    line-height: 25px;
+}
+
+.sm{
+    width: 150px;
+    height: 50px;
+    background: #5203fc;
+    border: none;
+    margin-left: 90px;
+    margin-top: -20px;
+    text-align: center;
+    padding: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sm a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    margin-top: 40px;
+    grid-template-rows: repeat(9, 1fr);
+    background-size: cover;
+}
+
+.page3-heading{
+    grid-row: 1/4;
+    font-size: 25px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.page3-heading h1{
+    font-size: 60px;
+}
+
+.page3-heading p {
+    color: #5203fc;
+}
+
+.page3-cont{
+    grid-row: 4/10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page3-cont-01{
+    padding-top: 35px;
+}
+
+.page3-cont-01 h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.2);
+    line-height: 10px;   
+}
+
+.page3-img{
+    width: 420px;
+    height: 240px;
+}
+
+.page3-cont-head{
+    color: #5203fc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.page3-123-cont{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.page4{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #5203fc;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
+.page4-heading{
+    display: grid;
+    grid-row: 2/3;
+    font-size: 35px;
+    padding-left: 150px;
+}
+
+.page4-cont{
+    grid-row: 3/10;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.page4-img0 img{
+    width: 550px;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 35px;
+
+}
+
+.page4-info{
+    width: 550px;
+    height: 500px;
+    background-color: #000653;
+    margin-left: 20px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 74px;
+    border-radius: 35px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.page4-info hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.page5-cont{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.page5-cont h2{
+    font-size: 35px;
+}
+
+.page5-add{
+    color: #5203fc;
+    text-transform: uppercase;
+}
+
+.page5-img{
+    background-image: url(./img/PAGE-5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.page5-img-cont{
+    padding-top: 230px;
+}
+
+.page5-img-cont01 a{
+    color: white;
+    font-size: 50px;
+}
+
+.page5-btn button{
+    width: 350px;
+    height: 50px;
+    background-color: #5203fc;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+
+.page5-btn button a{
+    color: white;
+    font-size: 20px;
+    background-color: #5203fc;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
